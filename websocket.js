@@ -80,7 +80,6 @@ const setupWebSocketConnection = ({
 };
 
 const handleDeepGramWebSocketConnection = (ws, req) => {
-  console.log('here', ws, req);
   try {
     const queryParams = url.parse(req.url, true).query;
 
